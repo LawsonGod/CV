@@ -4,6 +4,7 @@
     background-color: transparent;
     align-items: center;
     flex-direction: row;
+    margin-top: 1vw;
     
 }
 
@@ -15,6 +16,7 @@
     border: 2px solid black;
     border-radius: 5vw;
     opacity: 0.9;
+    margin-left: 1vw;
 }
 
 .image{
@@ -23,6 +25,7 @@
     box-shadow: 2px 2px 20px rgba(0,0,1,2.20);
     margin: 50px;
     
+    
 }
 
 .col-right{
@@ -30,9 +33,11 @@
     align-items: flex-start;
     justify-content:flex-start;
     background-color:aliceblue;
+    opacity: 0.7;
     border-radius: 1vw;
     margin-bottom: 12vw ;
     margin-left: 1vw;
+    margin-right: 1vw;
     width: 70%;
 }
 .ID{
@@ -59,21 +64,6 @@
 .about-me{
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 800px) {
     .row-presentation {

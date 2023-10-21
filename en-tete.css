@@ -38,3 +38,11 @@ html, body{
     text-align: center;
     -webkit-text-stroke: 1px green;
 }
+@media (max-width: 800px) {
+    .titre h1{
+    
+        
+    }
+  
+ 
+}
