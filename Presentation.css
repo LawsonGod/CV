@@ -1,0 +1,94 @@
+.row-presentation{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.col-left{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5vw;
+    opacity: 0.9;
+}
+
+.image{
+    width: 200px;
+    border-radius: 110vw;
+    box-shadow: 2px 2px 20px rgba(0,0,1,2.20);
+    margin: 50px;
+    
+}
+
+.col-right{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    background-color:aliceblue;
+    border-radius: 1vw;
+    margin-bottom: 12vw ;
+    margin-left: 1vw;
+    width: 70%;
+}
+.ID{
+    margin-left: 2vw;
+}
+.icon-adresse{
+    width: 20px;
+    height: auto;
+    
+}
+.icon-email{
+    width: 12px;
+    height: auto;
+}
+.icon-tel{
+    width: 12px;
+    height: auto;
+}
+.adresse{
+    margin-top: -1vw;
+    font-size: 15px;
+}
+
+.about-me{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .row-presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-left, .col-right {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    .image {
+        width: 150px;
+        margin: 20px;
+    }
+}
+   
