@@ -1,0 +1,6 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/body_fond.JPG) no-repeat center center fixed;
+    background-size: cover;
+}
