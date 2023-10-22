@@ -4,3 +4,21 @@ html, body{
     background: url(images/body_fond.JPG) no-repeat center center fixed;
     background-size: cover;
 }
+.grid-experiences-compétences{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 5vw;
+}
+
+
+@media (max-width: 800px) {
+    .grid-experiences-compétences {
+        grid-template-columns: 1fr; /* Change la grille pour avoir une seule colonne */
+        margin-top: 10px;
+    }
+
+    html, body {
+        height: auto;  /* Assure que le corps s'étend pour s'adapter au contenu sur les petits écrans */
+    }
+}

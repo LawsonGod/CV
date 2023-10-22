@@ -37,11 +37,13 @@ html, body{
     margin-top: 50px;
     text-align: center;
     -webkit-text-stroke: 1px green;
+    font-size: 70px;
 }
 @media (max-width: 800px) {
     .titre h1{
     
-        
+        font-size: 2em;
+        margin-top: 20px;
     }
   
  

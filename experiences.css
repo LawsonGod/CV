@@ -1,18 +1,22 @@
 .column-experiences{
-width: 53%;
-max-height: 500px;
+width: 85%;
+max-height: 765px;
 display:block;
 background-color: aliceblue;
 align-items: center;
 flex-direction: column;
-margin-top: 1vw;
+/* margin-top: vw; */
 border-radius: 2vw;
 overflow-y: scroll;
+}
+.grand-titre{
+    text-align: center;
 }
 .grid-container-denyl{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    padding-top: 1vw;
     
 }
 /* Denyl Tps */
@@ -34,9 +38,10 @@ overflow-y: scroll;
     width: 30vw;
 }
 .p-denyl{
-    font-size: 13px;
-    padding-top: 1vw;
-    padding-right: 10vw;
+    font-size: 15px;
+    padding-top: 0.5vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
 }
 
 
@@ -60,9 +65,10 @@ overflow-y: scroll;
 }
 
 .p-lawson{
-    font-size: 13px;
-    padding-top: 1vw;
-    padding-right: 10vw;
+    font-size: 15px;
+    padding-top: 0.5vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
 }
 
 /* C.P.S */
@@ -87,9 +93,10 @@ overflow-y: scroll;
 }
 
 .p-CPS{
-    font-size: 13px;
-    padding-top: 1vw;
-    padding-right: 10vw;
+    font-size: 15px;
+    padding-top: 0.5vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
 }
 
 /* Seatem france */
@@ -113,9 +120,64 @@ overflow-y: scroll;
 }
 
 .p-seatem{
-    font-size: 13px;
-    padding-top: 1vw;
-    padding-right: 10vw;
+    font-size: 15px;
+    padding-top: 0.5vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
+}
+
+@media (max-width: 1000px) {
+    .column-experiences {
+        width: 100%;
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+
+    .grid-container-denyl {
+        grid-template-columns: 1fr; /* Change la grille pour avoir une seule colonne */
+        padding: 10px;
+    }
+
+    .exp-denyl,
+    .exp-lawson,
+    .exp-CPS,
+    .exp-seatem {
+        width: auto;
+    }
+
+    .p-denyl{
+        font-size: 14px;
+        padding-right: 10px;
+        margin-left: 10px;
+        
+    }
+    .p-lawson{
+        font-size: 14px;
+        padding-right: 10px;
+        margin-left: 10px;
+        
+    }
+    .p-CPS{
+        font-size: 14px;
+        padding-right: 10px;
+        margin-left: 10px;
+       
+    }
+    .p-seatem{
+        font-size: 14px;
+        padding-right: 10px;
+        margin-left: 10px;
+       
+    }
+
+    .image-d,
+    .image-l,
+    .image-c,
+    .image-s {
+        width: 200px; 
+        margin-left: 25vw;
+
+    }
 }
 
 
