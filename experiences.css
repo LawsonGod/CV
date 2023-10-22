@@ -1,0 +1,128 @@
+.column-experiences{
+width: 53%;
+max-height: 500px;
+display:block;
+background-color: aliceblue;
+align-items: center;
+flex-direction: column;
+margin-top: 1vw;
+border-radius: 2vw;
+overflow-y: scroll;
+}
+.grid-container-denyl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+/* Denyl Tps */
+
+.Denyl-image{
+  padding-left: 10px;
+
+}
+.image-d{
+    padding: 10px;
+    width: 250px;
+    border-radius: 50vw;
+}
+.titre-denyl{
+    text-align: center;
+
+}
+.exp-denyl{
+    width: 30vw;
+}
+.p-denyl{
+    font-size: 13px;
+    padding-top: 1vw;
+    padding-right: 10vw;
+}
+
+
+/* Lawson Cosmos */
+
+.Lawson-image{
+    padding-left: 10px;
+  
+}
+.image-l{
+    padding: 10px;
+    width: 250px;
+    border-radius: 50vw;
+
+}
+.titre-lawson{
+    text-align: center;
+}
+.exp-lawson{
+    width: 30vw;
+}
+
+.p-lawson{
+    font-size: 13px;
+    padding-top: 1vw;
+    padding-right: 10vw;
+}
+
+/* C.P.S */
+
+
+.CPS-image{
+    padding-left: 10px;
+  
+}
+.image-c{
+    padding: 10px;
+    width: 250px;
+    border-radius: 50vw;
+}
+
+.titre-CPS{
+    text-align: center;
+}
+
+.exp-CPS{
+    width: 30vw;
+}
+
+.p-CPS{
+    font-size: 13px;
+    padding-top: 1vw;
+    padding-right: 10vw;
+}
+
+/* Seatem france */
+
+.seatem-image{
+    padding-left: 10px;
+}
+
+.image-s{
+    padding: 10px;
+    width: 250px;
+    border-radius: 50vw;
+}
+
+.titre-seatem{
+    text-align: center;
+}
+
+.exp-seatem{
+    width: 30vw;
+}
+
+.p-seatem{
+    font-size: 13px;
+    padding-top: 1vw;
+    padding-right: 10vw;
+}
+
+
+
+
+
+
+
+
+
